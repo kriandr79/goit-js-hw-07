@@ -22,7 +22,7 @@ function makeGalleryMarkup(images) {
 
 // Функція запуску плагіна
 function lightboxRun() {
-  var lightbox = new SimpleLightbox(".gallery a", {
+  let lightbox = new SimpleLightbox(".gallery a", {
     /* options */
     overlay: true,
     overlayOpacity: 0.7,
